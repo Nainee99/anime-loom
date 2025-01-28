@@ -61,7 +61,7 @@ export default function Home() {
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.5 }}
               >
-                <AnimeCard anime={anime} />
+                <AnimeCard anime={anime} index={0} />
               </motion.div>
             ))}
           </AnimatePresence>
